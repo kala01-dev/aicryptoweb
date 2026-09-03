@@ -1,1 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv
 
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment
+.env
+.env.local
+
+# Model & data cache
+models/saved/
+data/cache/
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
