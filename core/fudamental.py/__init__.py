@@ -1,1 +1,1 @@
-
+"""Analisis fundamental dari CoinGecko."""
