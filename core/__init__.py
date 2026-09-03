@@ -1,1 +1,1 @@
-
+"""Inti logika bisnis aplikasi."""
