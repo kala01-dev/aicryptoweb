@@ -1,1 +1,1 @@
-
+"""Kumpulan indikator teknikal."""
