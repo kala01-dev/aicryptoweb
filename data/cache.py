@@ -1,1 +1,11 @@
+from functools import lru_cache
 
+@lru_cache(maxsize=128)
+def cached_get_klines(symbol, interval, limit):
+    from .fetcher import get_klines
+    return get_klines(symbol, interval, limit)
+
+@lru_cache(maxsize=1)
+def cached_get_24hr_tickers():
+    from .fetcher import get_24hr_tickers
+    return get_24hr_tickers()
